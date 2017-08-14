@@ -7,15 +7,15 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
-import java.lang.Integer;
 
 @Entity
-@Table(name = "t_app")
-public class App {
+@Table(name = "t_build")
+public class Build {
     private int id;
-    private String name;
+    private int buildNumber;
     private int serverId;
-    private String itemName;
+    private int appId;
+    private int status;
 
     @Id
     @GeneratedValue
@@ -27,13 +27,13 @@ public class App {
         this.id = id;
     }
 
-    @NotEmpty(message = "App名称不能为空")
-    public String getName() {
-        return name;
+    @Range(max = Integer.MAX_VALUE)
+    public int getBuildNumber() {
+        return buildNumber;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setBuildNumber(int buildNumber) {
+        this.buildNumber = buildNumber;
     }
 
     @Range(max = Integer.MAX_VALUE)
@@ -45,12 +45,21 @@ public class App {
         this.serverId = serverId;
     }
 
-    @NotEmpty(message = "Jenkins Item不能为空")
-    public String getItemName() {
-        return itemName;
+    @Range(max = Integer.MAX_VALUE)
+    public int getAppId() {
+        return appId;
     }
 
-    public void setItemName(String itemName) {
-        this.itemName = itemName;
+    public void setAppId(int appId) {
+        this.appId = appId;
+    }
+
+    @Range(max = Integer.MAX_VALUE)
+    public int getStatus() {
+        return status;
+    }
+
+    public void setStatus(int status) {
+        this.status = status;
     }
 }

@@ -14,7 +14,7 @@
 		服务器登录用户名:<sf:input path="username"/><sf:errors path="username"></sf:errors><br/>
 		服务器登录密码:<sf:input path="password"/><sf:errors path="password"></sf:errors><br/>
 		Jenkins服务器描述:<sf:textarea path="description"/><sf:errors path="description"></sf:errors><br/>
-		<input type="submit" value="修改用户"/>
+		<input type="submit" value="修改Jenkins信息"/>
 	</sf:form>
 </body>
 </html>

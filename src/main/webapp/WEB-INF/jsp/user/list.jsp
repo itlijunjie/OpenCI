@@ -56,7 +56,7 @@ function tiaozhuan(){
 	    </c:when> 
     	<c:otherwise>  
     		下一页  
-    	</c:otherwise>  
+    	</c:otherwise>
     </c:choose>
              当前第${users.curPage }页
 	共<span>${users.pageTotalNum }</span>页

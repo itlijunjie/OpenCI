@@ -30,12 +30,12 @@
                     "url": "user/users?pageNo=1"
                 }, {
                     "menuname": "Jenkins服务器管理",
-                    "icon": "icon-add",
+                    "icon": "icon-search",
                     "url": "jenkins/jenkinses?pageNo=1"
                 }, {
                     "menuname": "App列表",
-                    "icon": "icon-add",
-                    "url": "app/index"
+                    "icon": "icon-more",
+                    "url": "app/apps?pageNo=1"
                 } /*,
                  {"menuname":"用户管理","icon":"icon-users","url":"demo.html"},icon-nav
                  {"menuname":"角色管理","icon":"icon-role","url":"demo.html"},

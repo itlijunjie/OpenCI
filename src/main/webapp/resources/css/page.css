@@ -1,0 +1,19 @@
+.page {
+    background-color: #cccccc;
+}
+
+.page table {
+    border: 0;
+    align: center;
+    width: 100%;
+    -webkit-border-horizontal-spacing: 0;
+    -webkit-border-vertical-spacing: 0;
+}
+
+.page table thead {
+    background-color: #9acfea;
+}
+
+.page table tbody {
+    background-color: #ebebeb;
+}
