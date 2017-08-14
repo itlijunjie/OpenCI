@@ -1,0 +1,19 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="zh-CN">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script type="text/javascript" src="../resources/jQuery3.1.1/jquery.min.js"></script>
+    <title>Insert title here</title>
+</head>
+<body>
+<div id="rData">
+
+</div>
+<script type="application/javascript">
+    $.get('http://172.16.20.75:8080/pt/ddemo/setcookie', null, function (data) {
+        console.log(data);
+        $('#rData').text(data);
+    });
+</script>
+</body>
+</html>

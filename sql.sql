@@ -1,0 +1,2 @@
+--insert into t_user(`email`,`nickname`,`password`,`username`) select `email`,`nickname`,`password`,`username` from t_user
+INSERT INTO `open_ci`.`t_user` (`id`, `email`, `nickname`, `password`, `username`) VALUES (NULL, 'admin@admin.com', 'admin', '21232F297A57A5A743894A0E4A801FC3', 'admin');
