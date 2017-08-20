@@ -8,10 +8,10 @@ Open CI一个构建前端系统，一个Intellij IDEA工程，想构建自己来
 ## 环境介绍
 测试在Tomcat 8.x 和 java 8可以运行。
 ## 功能介绍
-<img src="./image/1.png" width="200px"></br>
-<img src="./image/2.png" width="200px"></br>
-<img src="./image/3.png" width="200px"></br>
-<img src="./image/4.png" width="200px"></br>
+<img src="./image/1.png" width="400px"></br>
+<img src="./image/2.png" width="400px"></br>
+<img src="./image/3.png" width="400px"></br>
+<img src="./image/4.png" width="400px"></br>
 ## 联系方式
 QQ：470058952</br>
 我的微信：</br>
